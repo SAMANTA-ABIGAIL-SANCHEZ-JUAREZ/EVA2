@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.eva2_7_while;
+
+/**
+ *
+ * @author sanch
+ */
+public class EVA2_7_WHILE {
+
+    public static void main(String[] args) {
+       // imprimir numeros de 1 al 10
+       int val = 1;
+       while(val <= 10){ // while-->mientras(esto sea verdad)(repito esto)
+           System.out.print(val + "-");
+           val++;
+       }
+       System.out.print("");
+       val = 1;
+       do{
+            System.out.print(val + "-");
+           val++;
+       }while(val <=10);//REPETIR (INSTRUCCIONES) MIENTRAS (ESTO SE CUMPLA)
+       }
+    }
+}
+
